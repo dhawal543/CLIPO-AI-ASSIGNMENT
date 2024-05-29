@@ -1,13 +1,57 @@
-## Running React on Replit
+# Video Player with Customizable Subtitles
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+This project is a web-based video player that allows users to customize subtitles in various styles and templates. It includes features for video playback, subtitle customization, and supports subtitle files in SRT format.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+## Features
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+1. **Video Playback**:
+   - Play, pause, and seek through a video.
+   - Responsive and functional across different browsers and devices.
 
-### Getting Started
-- Hit run
-- Edit [App.tsx](#src/App.tsx) and watch it live update!
+2. **Subtitle Customization**:
+   - Enable/disable subtitles.
+   - Change the font size, color, and background of subtitles.
+   - Upload custom subtitle files in SRT format.
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+3. **User Interface**:
+   - Clean and intuitive UI/UX.
+   - Aligned with the overall design aesthetics of Clipo AI.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed on your machine.
+
+Install the dependencies:
+
+bash
+
+    npm install
+
+Running the Project
+
+    Start the development server:
+
+    bash
+
+    npm start
+
+    Open your browser and navigate to http://localhost:3000.
+
+Project Structure
+
+    src/: Contains the source code for the project.
+        components/: Contains the React components.
+            VideoPlayer.tsx: The main video player component.
+            SubtitleCustomizer.tsx: The component for customizing subtitle settings.
+        utils/: Contains utility functions.
+            parseSRT.ts: Utility for parsing SRT files.
+
+Usage
+
+    Video Playback:
+        Use the play/pause button to control the video.
+    Subtitle Customization:
+        Use the file input to upload a custom SRT subtitle file.
+        Use the SubtitleCustomizer to adjust subtitle settings like font size, color, and background color.
