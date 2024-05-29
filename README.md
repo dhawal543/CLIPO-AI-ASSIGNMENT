@@ -1,4 +1,4 @@
-# Video Player with Customizable Subtitles
+# Video Player with Customizable Subtitles(Will update this by 30-05-2024 11:59 PM)
 
 This project is a web-based video player that allows users to customize subtitles in various styles and templates. It includes features for video playback, subtitle customization, and supports subtitle files in SRT format.
 
